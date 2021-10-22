@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "live-report-storybook",
   "version": "0.0.0",
   "license": "MIT",
@@ -12,6 +11,10 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "files": [
+    "build"
+  ],
+  "main": "build/index.js",
   "eslintConfig": {
     "extends": "preact",
     "ignorePatterns": [
