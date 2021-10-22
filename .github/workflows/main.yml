@@ -21,7 +21,7 @@ jobs:
       - name: Build app
         run: npm run build
       - name: Create Release
-        uses: actions/create-release@v1
+        run: actions/create-release@v1
       - name: Semantic release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB }}
