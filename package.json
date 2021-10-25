@@ -9,7 +9,7 @@
     "lint": "eslint src",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -c .storybook -o .dist"
+    "build-storybook": "build-storybook -c .storybook -o dist"
   },
   "main": "build/index.js",
   "eslintConfig": {
