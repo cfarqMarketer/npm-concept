@@ -37,7 +37,7 @@
     "sirv-cli": "1.0.3"
   },
   "release": {
-    "branches": ["master"]
+    "branches": ["master", "next"]
   },
   "plugins": [
     "@semantic-release/commit-analyzer",
